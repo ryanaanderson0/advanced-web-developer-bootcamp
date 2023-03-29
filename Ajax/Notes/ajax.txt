@@ -1,0 +1,61 @@
+AJAX - asynchronous JavaScript and XML
+
+    AJAX is not...
+        - A library
+        - A coding language
+        - A framework
+
+    AJAX is:
+        - an approach/ concept to web development
+        - "Make applications that can updated the front end without the page refreshing"
+        - Client side data requests
+        - Example: google / gmail
+        - Another Example:
+
+            Pinterest Infinite Scroll - 
+
+                How it works ->
+
+                    1. JavaScript registers an event - "User scrolled to the bottom"
+                    2. Send a request to the server
+                    3. Get more content to load to the frontend
+                    ** Doesn't require a page refresh
+
+
+    XML - What the f is it? :
+
+        Extended Markup Language
+
+        -syntactically similar to HTML
+
+        Example Notation:
+
+        <pin>
+            <title>Crochet Basics</title>
+            <num-saves>1200</num-saves>
+            <author>Tina Turnter</author>
+        </pin>
+
+    JSON :
+
+        JavaScript Object Notation
+
+        - Key / value pairs represented in JavaScript Objects
+
+        Example Notation:
+
+        'pin' : {
+            'title': 'Crochet Basics',
+            'num-saves': 1200,
+            'author': 'Tina Turnter' 
+        }
+
+        Why JSON userped XML-
+            - JavaScript became super popular 
+            - Easier to parse the data using JavaScript
+
+
+
+
+
+

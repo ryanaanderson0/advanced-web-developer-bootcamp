@@ -1,0 +1,22 @@
+PROMISE
+
+    Objectives:
+
+        - Define a promise 
+        - add a .then to the promise
+        - add a .catch to the promise
+        - wrap in a setTimeout
+
+    What is a promise?
+
+        - A promise is an object that represents a task that will be completed in the future
+
+        Promise ex:
+
+        const promiseEx = new Promise(function(resolve, reject) {
+            resolve[1,2,3,4];
+        })
+
+        promiseEx.then(function(arr) {
+            console.log("PromiseEx resolved with data :", arr);
+        })

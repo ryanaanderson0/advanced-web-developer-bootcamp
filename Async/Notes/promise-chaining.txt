@@ -1,0 +1,34 @@
+Promise Chaining
+
+ Disadvantages of nested callbacks: 
+    
+    - Hard to read & maintain
+    - Logic is difficult to reason
+    - The code is not modular
+    
+Promise chaining:
+
+    - allows multiple .then functions to be chained to a promise
+    * if a callback function returns a promise, the next .then function will wait for that first callback to be executed before completing the next
+    - You can chain as many .then's as necessary
+
+    ex:
+
+    const p = new Promise(function(resolve, reject) {
+        // code here
+    )};
+    p.then(function() {
+        // then
+    }).then(function() {
+        // and then
+    })
+
+Promise Returns:
+
+     - promises can return data, passed as an argument in the sequential .then function
+
+Promise in Practice:
+
+    - You won't be calling a new Promise, esp. in AJAX
+    - In practice, you'll be given a promise as a result of envoking certain functions/code
+    EX: fetch returns a promise that you can chain .then functions 
