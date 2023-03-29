@@ -1,0 +1,66 @@
+Chapter Objectives:
+
+   - Define callback functions
+   - Define higher order functions
+   - Use a callback function to make your code more general
+   - Create callback functions using anonyomus functions
+
+
+***  CALLBACK FUNCTIONS ***
+
+
+    - Callback function is a function that is passed into another function as a parameter then invoked by that other function
+    - AKA calling a function in a function as a parameter
+
+ 
+    Callback Example:
+
+        **see callback-example.js
+
+Higher Order Function:
+
+    - A function that accepts a callback as a parameter
+
+
+What are callbacks used for?
+
+    - Advanced Array Methods
+    - Browser Events
+    - AJAX Requests
+    - React
+
+
+***  STACK & HEAP ***
+
+    What is the stack?
+        - An ordered data structure
+        - Keeps track of function invocations
+        - Part of the JavaScript runtime
+        - Always processed from top to bottom
+
+    - When the function is done running and returns a value, the function is POPPED from the stack and can move on
+
+    Stack Frame:
+
+        - Includes
+            - Function that was invoked
+            - The parameters passed
+            - The line of the function
+
+    What is the Heap?
+
+        - An area in memory where your data is stored
+
+
+***  setTimeout and setInterval ***
+
+
+  setTimeout    
+    - function that asynchronously invokes a callback after a delay in milliseconds
+
+
+    
+
+
+
+
