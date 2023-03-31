@@ -1,0 +1,45 @@
+FETCH:
+
+    Problems with XHR: 
+
+        - ugly, bulky
+        - 16 years old! she old!
+        - Cannot stream
+        
+
+    Fetch API
+
+        - clean syntax, more powerful
+        - let you do things that you can't do with XHR
+        - Returns a promise
+        - Can use a json() function to the fetch response, which also returns a promise
+            - you can then 
+
+        Syntax:
+
+        fetch(URL)
+        .then(function(response) {
+            console.log(response);
+            return response.json();
+        })
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(error) {
+            console.log(error);
+        })
+
+
+    Fetch Options:
+
+        - you can include an object for the options that you want to provide,
+
+        EX:
+
+        fetch(url, {
+            method: 'POST',
+            body: JSON.stringify({
+                name: 'blue',
+                login: 'bluecat'
+            })
+        })
