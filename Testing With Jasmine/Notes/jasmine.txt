@@ -1,0 +1,59 @@
+Testing with Jasmine:
+
+    Essential Keywords:
+
+        describe:
+            - function that organizes the tests
+            - one describe per block/function
+
+        it:
+            - tells about the test in more detail
+            - each it function corresponds to a test
+            - also called a spec
+
+        expect:
+            - lives inside of the it function
+            - where we make expectations of the function
+            - if the expectations dont meet, the tests fail
+
+        Pseudocode example:
+
+            describe("Earth")
+                it("is round")
+                    expect(earth.isRound.toBe(true))
+                it("is the third planet from the sun")
+                    expect(earth.numberFromSun).toBe(3)
+
+        Code example:
+
+            var earth = {
+                isRound: true,
+                numberFromSun: 3
+            }
+
+            describe("Earth", function() {
+                it("is round", function() {
+                    expect(earth.isRound).toBe(true)
+                });
+                it("is the third planet from the sun", function() {
+                    expect(earth.numberFromSun).toBe(3)
+                });
+            })
+
+    
+        Matchers:
+
+        toBe / not.toBe
+           - uses === to compare the value of the expect function to the value of the toBe function
+
+        toBeCloseTo
+            - 
+
+        toBeDefined
+
+        toBeTruthy / toBeFalsy
+
+        toBeLessThan / toBeGreaterThan
+
+        toContain
+            - usefull in arrays to match/check if an array contains a specific value

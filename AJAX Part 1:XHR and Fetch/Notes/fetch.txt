@@ -43,3 +43,9 @@ FETCH:
                 login: 'bluecat'
             })
         })
+
+    The Only Problem?:
+
+        - Fetch isn't supported with every Browser
+
+    

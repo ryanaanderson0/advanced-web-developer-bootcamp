@@ -1,0 +1,36 @@
+jQuery: 
+
+     - slogan: "The Write Less, Do More JavaScript Library"
+
+    Making a request with jQuery:
+        
+        $.getJSON('/my/url', function(data) {
+
+        });
+
+        4 methods:
+
+            $.ajax 
+            $.get
+            $.post 
+            $.getJSON
+
+    How to include jQuery:
+
+        - CDN 
+         - can be found on jQuery website
+
+    Default data return is guessed intelligently, so if the file is JavaScript, the base return would be JSON
+
+
+    jQuery AJAX Shorthand Methods: 
+        - $.get
+            - just takes a URL as a parameter
+            - does the same thing as --
+            
+                $.ajax({
+                    method: "GET",
+                })
+
+
+

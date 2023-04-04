@@ -1,0 +1,9 @@
+AXIOS:
+
+    - Lightweight HTTP request library
+    - Comes without the bulk of jQuery
+    - Library thats built on top of XMLHttpRequests
+
+    Can include using:
+        - CDN
+        - Node.js
